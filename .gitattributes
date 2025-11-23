@@ -64,3 +64,6 @@
 UserWebApp/Scripts/*.js linguist-vendored
 UserWebApp/Scripts/*.map linguist-vendored
 *.min.js linguist-vendored
+*.js linguist-detectable=false
+*.jsx linguist-detectable=false
+
