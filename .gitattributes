@@ -61,3 +61,6 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+UserWebApp/Scripts/*.js linguist-vendored
+UserWebApp/Scripts/*.map linguist-vendored
+*.min.js linguist-vendored
