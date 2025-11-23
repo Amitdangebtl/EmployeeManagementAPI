@@ -7,8 +7,6 @@ The project includes Authentication, Email Verification, Excel Import, and Secur
 
 3️⃣ Features
 
-(Updated as per your request)
-
 ## 🚀 Features
 
 ✔ User Registration & Login  
@@ -66,40 +64,31 @@ The project includes Authentication, Email Verification, Excel Import, and Secur
 📷 Application Screenshots
 
 🔹 Register Page
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/RegisterPage.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/RegisterPage.png
 
 🔹 Login Page
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/LoginPage.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/LoginPage.png
 
 🔹 Email Verification
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/Email%20Verification.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/Email%20Verification.png
 
 🔹 Check Email Verification
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/Check%20Email%20Verification.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/Check%20Email%20Verification.png
 
 🔹 Forgot Password
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/ForgotPassword.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/ForgotPassword.png
 
 🔹 Reset Password
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/Set%20ForgotPassword.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/Set%20ForgotPassword.png
 
 🔹 Home Page
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/HomePage.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/HomePage.png
 
 🔹 User List (Search, Filter, Upload Excel)
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/ListofData.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/ListofData.png
 
 🔹 API Documentation (Swagger)
-
-https://github.com/Amitdangebtl/EmployeeManagementAPI/blob/master/ASP.Net%20Core%20Swagger.png
+https://raw.githubusercontent.com/Amitdangebtl/EmployeeManagementAPI/master/ASP.Net%20Core%20Swagger.png
 
 8️⃣ Author Info
 ## 👤 Author
