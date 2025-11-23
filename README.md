@@ -67,21 +67,20 @@ The project includes Authentication, Email Verification, Excel Import, and Secur
 
 👉 Aap yaha add kar sakte ho:
 
-## 📸 Screenshots
+## 📷 Application Screenshots
 
-## 📌 Login Page
-![Login](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/LoginPage.png)
+### 🔹 Login Page
+![Login Page](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/LoginPage.png)
 
-## 📌 Home Page
-![Home](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/HomePage.png)
+### 🔹 Home Page
+![Home Page](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/HomePage.png)
 
-## 📌 User List Page
-![Users List](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/ListofData.png)
+### 🔹 User List (Search, Filter, Upload Excel)
+![User List](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/ListofData.png)
 
-## 📌 API Swagger Screen
-![Swagger](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/ASP.Net Core Swagger.png)
+### 🔹 API Documentation (Swagger)
+![Swagger Page](https://github.com/Amitdangebtl/EmployeeManagementAPI/raw/master/ASP.Net%20Core%20Swagger.png)
 
-(Abhi bina images ke, baad me folder me screenshot daal kar link update kar dena)
 
 8️⃣ Author Info
 ## 👤 Author
