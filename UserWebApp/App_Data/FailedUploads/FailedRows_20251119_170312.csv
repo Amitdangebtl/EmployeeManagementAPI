@@ -1,0 +1,4 @@
+﻿RowNumber,FirstName,LastName,Email,Password,Gender,DOB,Country,State,City,Address,IsTermsAccepted,RoleId,Reason
+"1","Manoj","Batra","manoj.u2@example.com","manoj123","Male","","India","DL","Delhi","Addr A","Yes","2","Duplicate email already in DB"
+"2","Anita","Kaur","anita.u2@example.com","anitaPW","Female","","India","PB","Amritsar","Addr B","Yes","2","Duplicate email already in DB"
+"3","Vikas","Yadav","vikas.u2@example.com","vikasPW","Male","","India","HR","Gurgaon","Addr C","Yes","2","Duplicate email already in DB"

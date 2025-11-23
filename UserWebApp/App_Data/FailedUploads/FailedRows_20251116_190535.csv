@@ -1,0 +1,6 @@
+﻿RowNumber,FirstName,LastName,Email,Password,Gender,DOB,Country,State,City,Address,IsTermsAccepted,RoleId,Reason
+"1","Rohit","Sharma","rohit.upload1@gmail.com","Pass@123","Male","","India","Maharashtra","Mumbai","Marine Lines","Yes","2","Duplicate email already in DB"
+"2","Virat","Kohli","virat.upload1@gmail.com","Vir@t2020","Male","","India","Delhi","New Delhi","Some Address 12","Yes","2","Duplicate email already in DB"
+"3","Sachin","Tendulkar","sachin.upload1@gmail.com","Sach#99","Male","","India","Maharashtra","Mumbai","Bandra West","Yes","2","Duplicate email already in DB"
+"4","Suryakumar","Yadav","suryakumar.upload1@gmail.com","Sky@2021","Male","","India","Maharashtra","Mumbai","Andheri","Yes","2","Duplicate email already in DB"
+"5","Anita","Desai","anita.desai.upload1@example.com","Anita@456","Female","","India","Karnataka","Bengaluru","MG Road","Yes","2","Duplicate email already in DB"

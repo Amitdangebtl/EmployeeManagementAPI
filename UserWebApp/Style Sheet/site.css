@@ -1,0 +1,139 @@
+﻿/* GLOBAL */
+html, body {
+    background: #f7f9fb;
+    color: #111827;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* APP SHELL (card) */
+.app-shell {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 28px;
+    border: 1px solid #e6e9ee;
+    box-shadow: 0 6px 22px rgba(16, 24, 40, 0.06);
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FORM AREA */
+.form-area {
+    max-width: 720px;
+    width: 100%;
+    margin: 0;
+}
+
+/* HEADINGS */
+.page-title,
+h3 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #111827;
+}
+
+/* FORM ROW */
+.form-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+/* LABELS */
+.form-label {
+    width: 140px;
+    color: #374151;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+/* INPUTS, SELECTS, TEXTAREAS */
+.form-input,
+.app-shell input[type="text"],
+.app-shell input[type="email"],
+.app-shell input[type="password"],
+.app-shell input[type="date"],
+.app-shell textarea,
+.app-shell select,
+.form-select {
+    padding: 9px 12px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    background: #fff;
+    color: #111827;
+    min-width: 220px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: box-shadow .12s ease, border-color .12s ease;
+}
+
+    .app-shell input:focus,
+    .app-shell textarea:focus,
+    .app-shell select:focus {
+        border-color: #1366d6;
+        box-shadow: 0 4px 12px rgba(19, 102, 214, 0.08);
+        outline: none;
+    }
+
+/* BUTTONS */
+.app-shell .btn {
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-weight: 600;
+}
+
+.app-shell .btn-primary {
+    background: #1366d6;
+    color: #fff;
+    border: 1px solid rgba(10,56,120,0.12);
+}
+
+.app-shell .btn-secondary {
+    background: #f3f4f6;
+    color: #111827;
+    border: 1px solid #e6e9ee;
+}
+
+.app-shell .btn-success {
+    background: #198754;
+    color: #fff;
+    border: 1px solid rgba(16,100,52,0.12);
+}
+
+/* GRIDVIEW header fix */
+.table thead th {
+    vertical-align: middle;
+}
+
+/* Small helpers */
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.mt-2 {
+    margin-top: .5rem !important;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+/* Responsive */
+@media (max-width: 760px) {
+    .form-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-label {
+        width: 100%;
+    }
+
+    .form-area {
+        padding: 0 8px;
+    }
+}

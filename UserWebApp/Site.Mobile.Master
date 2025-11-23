@@ -1,0 +1,66 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="UserWebApp.Site_Mobile" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><asp:ContentPlaceHolder runat="server" ID="HeadContent" /></title>
+
+    <!-- Simple mobile-friendly styles -->
+    <style>
+        body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; }
+        .topbar { display:flex; align-items:center; justify-content:space-between; padding:10px 14px; background:#111827; color:#fff; }
+        .brand { font-weight:600; font-size:18px; }
+        .nav { display:flex; gap:8px; align-items:center; }
+        .nav a, .nav button, .nav .btn { color:#fff; text-decoration:none; background:#1f2937; border:1px solid #374151; padding:6px 10px; border-radius:6px; font-size:14px; }
+        .nav a:hover, .nav button:hover, .nav .btn:hover { background:#374151; }
+        .welcome { font-size:13px; opacity:.95; margin-right:6px; color:#f3f4f6; }
+        .user-badge { background: rgba(255,255,255,0.06); padding:6px 10px; border-radius:999px; display:flex; gap:8px; align-items:center; font-size:13px; }
+        .user-icon { width:28px; height:28px; border-radius:50%; background:#2563eb; display:inline-flex; align-items:center; justify-content:center; font-weight:700; color:#fff; }
+        .wrap { padding:12px; }
+        .footer { padding:12px; text-align:center; color:#6b7280; font-size:13px; }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- Top navigation -->
+        <div class="topbar">
+            <div class="brand">User Management (Mobile)</div>
+
+            <div class="nav">
+                <!-- Welcome / User badge -->
+                <asp:Panel ID="pnlUserInfo" runat="server" CssClass="user-badge" Visible="false">
+                    <span class="user-icon" id="spUserIcon" runat="server"></span>
+                    <asp:Label ID="lblWelcome" runat="server" CssClass="welcome" />
+                </asp:Panel>
+
+                <!-- Register / Login (hidden after login) -->
+                <asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="~/Register%20Page/Register.aspx" Text="Register" CssClass="btn" />
+                <asp:HyperLink ID="lnkLogin" runat="server" NavigateUrl="~/Login%20Page/Login.aspx" Text="Login" CssClass="btn" />
+
+                <!-- Users list shortcut (optional) -->
+                <asp:HyperLink ID="lnkUsers" runat="server" NavigateUrl="~/Register%20Page/UsersList.aspx" Text="Users" CssClass="btn" />
+
+                <!-- Logout (shown only after login) -->
+                <asp:LinkButton ID="lnkLogout" runat="server" Text="Logout" CssClass="btn" OnClick="lnkLogout_Click" />
+            </div>
+        </div>
+
+        <!-- Featured & Main content areas -->
+        <div class="wrap">
+            <asp:ContentPlaceHolder runat="server" ID="FeaturedContent" />
+            <section class="content-wrapper main-content clear-fix">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </section>
+
+            <!-- Friendly URL switcher -->
+            <friendlyUrls:ViewSwitcher runat="server" />
+        </div>
+
+        <div class="footer">
+            © <%: DateTime.Now.Year %> — Mobile View
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+﻿RowNumber,FirstName,LastName,Email,Password,Gender,DOB,Country,State,City,Address,IsTermsAccepted,RoleId,Reason
+"1","Priya","Reddy","priya.unique1@example.com","priyaPWD","Female","","India","Telangana","Hyderabad","Hitech City","Yes","2","Duplicate email already in DB"
+"2","Vikram","Bhosle","vikram.unique1@example.com","vikram#1","Male","","India","Maharashtra","Pune","Pune Road","Yes","2","Duplicate email already in DB"
+"3","Nisha","Kumar","nisha.unique1@example.com","nisha@9","Female","","India","Jharkhand","Ranchi","Ranchi St","Yes","2","Duplicate email already in DB"
+"4","Ethan","Brown","ethan.unique1@example.com","ethanPW","Male","","USA","Texas","Houston","TX Street","Yes","2","Duplicate email already in DB"
+"5","Olivia","Jones","olivia.unique1@example.com","olivia#","Female","","UK","England","Manchester","Main Rd","Yes","2","Duplicate email already in DB"
+"6","Samuel","Lee","samuel.unique1@example.com","samlee!","Male","","Canada","Ontario","Toronto","CN Tower Rd","Yes","2","Duplicate email already in DB"
+"7","Zara","Khan","zara.unique1@example.com","zarakhan","Female","","India","Karnataka","Bengaluru","Tech Park","Yes","2","Duplicate email already in DB"
+"8","Rana","Dutta","rana.unique1@example.com","ranaPWD","Male","","India","West Bengal","Kolkata","Park Street","Yes","2","Duplicate email already in DB"
+"9","Meera","Joshi","meera.unique1@example.com","meera123","Female","","India","Maharashtra","Nagpur","Nagpur Lane","Yes","2","Duplicate email already in DB"
+"10","Arjun","Rao","arjun.unique1@example.com","arjunPW","Male","","India","Andhra Pradesh","Vijayawada","VJ Road","Yes","2","Duplicate email already in DB"

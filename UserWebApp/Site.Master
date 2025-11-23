@@ -1,0 +1,147 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Site.Master.cs"
+    Inherits="UserWebApp.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <style>
+        :root {
+            --accent: #6b2e1f;
+            --muted-text: #343434;
+            --name-color: #14532d;
+        }
+
+        body {
+            background: linear-gradient(180deg, #fbf7f2 0%, #fff 60%);
+            font-family: "Georgia", "Times New Roman", serif;
+            color: var(--muted-text);
+        }
+
+        .navbar-classical {
+            background: #ffffff;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.03);
+        }
+
+        .navbar-brand { font-weight:700; color:var(--accent); font-family: Georgia, serif; }
+        .nav-link, .nav-small { color: rgba(52,52,52,0.85); text-decoration: none; }
+        .nav-link:hover, .nav-small:hover { color: var(--accent); }
+
+        .right-menu {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            margin-left:12px;
+        }
+        .right-top-row {
+            display:flex;
+            gap:14px;
+            align-items:center;
+        }
+        .username-center {
+            margin-top:4px;
+            font-weight:600;
+            font-style:italic;
+            color: var(--name-color);
+            font-size:0.92rem;
+            text-align:center;
+        }
+
+        @media (max-width: 768px) {
+            .right-menu { align-items:flex-start; }
+            .username-center { text-align:left; }
+        }
+    </style>
+</head>
+<body>
+<form id="form1" runat="server">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-classical sticky-top">
+        <div class="container">
+
+            <!-- Brand -->
+            <asp:HyperLink ID="lnkBrand" runat="server" CssClass="navbar-brand d-flex align-items-center gap-2"
+                NavigateUrl="~/Default.aspx">
+                <i class="bi bi-people-fill" style="font-size:1rem;color:var(--accent)"></i>
+                <span style="font-size:1.02rem;">User Management</span>
+            </asp:HyperLink>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNav">
+                <!-- LEFT -->
+                <ul class="navbar-nav me-auto align-items-center">
+                    <li class="nav-item">
+                        <asp:HyperLink ID="lnkHome" runat="server" CssClass="nav-link d-flex align-items-center gap-2"
+                            NavigateUrl="~/Default.aspx">
+                            <i class="bi bi-house-door" style="color:rgba(52,52,52,0.6)"></i>
+                            <span>Home</span>
+                        </asp:HyperLink>
+                    </li>
+                </ul>
+
+                <!-- RIGHT -->
+                <div class="right-menu">
+
+                    <div class="right-top-row">
+                        <asp:HyperLink ID="lnkRegister" runat="server" CssClass="nav-small"
+                            NavigateUrl="~/Register%20Page/Register.aspx">Register</asp:HyperLink>
+
+                        <asp:HyperLink ID="lnkLogin" runat="server" CssClass="nav-small"
+                            NavigateUrl="~/Register%20Page/Login.aspx">Login</asp:HyperLink>
+
+                        <asp:HyperLink ID="lnkUsers" runat="server" CssClass="nav-small"
+                            NavigateUrl="~/Register%20Page/UsersList.aspx" Visible="false">Users</asp:HyperLink>
+
+                        <asp:LinkButton ID="btnLogout" runat="server" CssClass="nav-small"
+                            OnClick="btnLogout_Click" CausesValidation="false">Logout</asp:LinkButton>
+                    </div>
+
+                    <asp:Label ID="lblUserName" runat="server" CssClass="username-center" />
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <div class="container my-4">
+        <div class="app-shell" style="background:linear-gradient(180deg,#fffefb,#ffffff); border-radius:10px; padding:18px;">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="container site-footer mb-4">
+        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center gap-2">
+            <small>© <%= DateTime.Now.Year %> User Management</small>
+            <small class="d-flex align-items-center gap-2">
+                <i class="bi bi-shield-lock" style="color:rgba(43,47,51,0.6)"></i> Secure • <i class="bi bi-lightning-charge" style="color:rgba(43,47,51,0.6)"></i> Fast
+            </small>
+        </div>
+    </footer>
+
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- ⭐ React + ReactDOM + Babel -->
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</body>
+</html>

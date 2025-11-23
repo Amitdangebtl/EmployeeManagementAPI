@@ -1,0 +1,11 @@
+﻿RowNumber,FirstName,LastName,Email,Password,Gender,DOB,Country,State,City,Address,IsTermsAccepted,RoleId,Reason
+"1","Tara","Basu","tara.unique1@example.com","taraPW","Female","","India","West Bengal","Kalyani","Kalyani St","Yes","2","Duplicate email already in DB"
+"2","Vivek","Nair","vivek.unique1@example.com","vivek123","Male","","India","Kerala","Kochi","Marine Dr","Yes","2","Duplicate email already in DB"
+"3","Anita","D'Souza","anita.unique1@example.com","anitaPW","Female","","India","Goa","Panaji","Seaside","","2","IsTermsAccepted missing"
+"4","Marcus","Green","marcus.unique1@example.com","marcus!","Male","","USA","Florida","Miami","Ocean Dr","Yes","2","Duplicate email already in DB"
+"5","Hina","Rizvi","hina.unique1@example.com","hinaPWD","Female","","India","Uttar Pradesh","Lucknow","Street 9","Yes","2","Duplicate email already in DB"
+"6","","Martinez","jose.unique1@example.com","jose123","Male","","Mexico","Mexico City","CDMX","Centro","Yes","2","FirstName missing"
+"7","Yuki","Tanaka","yuki.unique1@example.com","yukiPW","Female","","Japan","Tokyo","Tokyo","Shibuya","Yes","2","Duplicate email already in DB"
+"8","Gabriel","Silva","gabriel.unique1@example.com","gabriel!","Male","","Brazil","Sao Paulo","Sao Paulo","Av Paulista","Yes","2","Duplicate email already in DB"
+"9","Nur","Hassan","nur.unique1@example.com","nurPWD","Female","","Malaysia","Kuala Lumpur","KL","Bukit Bintang","Yes","2","Duplicate email already in DB"
+"10","Ibrahim","Omar","","ibrahim1","Male","","Egypt","Cairo","Cairo","Nile St","Yes","2","Email missing"

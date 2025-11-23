@@ -1,0 +1,6 @@
+﻿RowNumber,FirstName,LastName,Email,Password,Gender,DOB,Country,State,City,Address,IsTermsAccepted,Reason
+"1","Rohit","Sharma","rohitsharma@gmail.com","Pass@123","Male","","India","Maharashtra","Mumbai","Marine Lines","Yes","Duplicate email already in DB"
+"2","Virat","Kohli","viratkohli@gmail.com","Vir@t2020","Male","","India","Delhi","New Delhi","Some Address 12","Yes","Duplicate email already in DB"
+"3","Sachin","Tendulkar","sachintendulker@gmail.com","Sach#99","Male","","India","Maharashtra","Mumbai","Bandra West","Yes","Duplicate email already in DB"
+"4","Suryakumar","Yadav","suryakumar@gmail.com","Sky@2021","Male","","India","Maharashtra","Mumbai","Andheri","No","Duplicate email already in DB"
+"5","Anita","Desai","anita.desai@example.com","Anita@456","Female","1995-02-10","India","Karnataka","Bengaluru","MG Road","Yes","The INSERT statement conflicted with the FOREIGN KEY constraint ""FK_UsersRegister_Roles"". The conflict occurred in database ""MyDbDatabase"", table ""dbo.Roles"", column 'RoleId'. The statement has been terminated."

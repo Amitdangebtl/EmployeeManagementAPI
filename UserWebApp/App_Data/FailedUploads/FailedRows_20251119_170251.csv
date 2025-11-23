@@ -1,0 +1,11 @@
+﻿RowNumber,FirstName,LastName,Email,Password,Gender,DOB,Country,State,City,Address,IsTermsAccepted,RoleId,Reason
+"1","Kavita","Sharma","kavita.unique1@example.com","kavita123","Female","","India","Haryana","Panipat","House A","Yes","2","Duplicate email already in DB"
+"2","Manish","Verma","manish.unique1@example.com","manishPW","Male","","India","Uttar Pradesh","Varanasi","Ghat Road","Yes","2","Duplicate email already in DB"
+"3","Sonal","Rao","sonal.unique1@example.com","sonal!9","Female","","India","Maharashtra","Pune","Lane 3","Yes","2","Duplicate email already in DB"
+"4","Rajat","Gupta","rajat.unique1@example.com","rajatPass","Male","","India","Delhi","New Delhi","Connaught Place","Yes","2","Duplicate email already in DB"
+"5","Bhavna","Singh","bhavna.unique1@example.com","bhavna2021","Female","","India","Bihar","Patna","Patna Rd","Yes","2","Duplicate email already in DB"
+"6","Dev","Patel","dev.unique1@example.com","devpwd","Male","","India","Gujarat","Surat","Surat St","Yes","2","Duplicate email already in DB"
+"7","Isha","Mehta","isha.unique1@example.com","isha#88","Female","","India","Rajasthan","Ajmer","Ajmer Lane","Yes","2","Duplicate email already in DB"
+"8","Omar","Khan","omar.unique1@example.com","omarPW","Male","","Pakistan","Punjab","Lahore","Lahore Rd","Yes","2","Duplicate email already in DB"
+"9","Fahad","Ali","fahad.unique1@example.com","fahad!1","Male","","UAE","Dubai","Dubai City","Marina St","Yes","2","Duplicate email already in DB"
+"10","Luyi","Wang","luyi.unique1@example.com","luyiPWD","Female","","China","Beijing","Beijing","Bei Rd","Yes","2","Duplicate email already in DB"
